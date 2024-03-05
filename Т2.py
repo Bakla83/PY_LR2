@@ -6,5 +6,6 @@ for _ in range(n):
     synonyms[word1] = word2
     synonyms[word2] = word1
 
+
 word = input()
 print(synonyms[word])
